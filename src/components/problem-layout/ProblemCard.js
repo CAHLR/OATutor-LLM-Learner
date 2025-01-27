@@ -96,14 +96,6 @@ class ProblemCard extends React.Component {
             this.giveStuBottomHint &&
             !(context.debug && context["use_expanded_view"])
         ) {
-            // Bottom out hints
-            this.hints.push({
-                id: this.step.id + "-h" + (this.hints.length + 1),
-                title: this.translate('hintsystem.answer'),
-                text: this.translate('hintsystem.answerIs') + this.step.stepAnswer,
-                type: "bottomOut",
-                dependencies: Array.from(Array(this.hints.length).keys()),
-            });
             // Bottom out sub hints
             this.hints.map((hint, i) => {
                 if (hint.type === "scaffold") {
@@ -333,6 +325,7 @@ class ProblemCard extends React.Component {
         // Mark question as wrong if hints are used (on the first time)
         const { seed, problemVars, problemID, courseName, answerMade, lesson } =
             this.props;
+
         const { isCorrect, hintsFinished } = this.state;
         const { knowledgeComponents, variabilization } = this.step;
 

@@ -31,7 +31,7 @@ class HintTextbox extends React.Component {
             inputVal: "",
             isCorrect: context.use_expanded_view && context.debug ? true : null,
             checkMarkOpacity: context.use_expanded_view && context.debug ? '100' : '0',
-            showHints: false,
+            showHints: true,
         }
     }
 

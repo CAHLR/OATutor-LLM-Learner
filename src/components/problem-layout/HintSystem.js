@@ -165,13 +165,7 @@ class HintSystem extends React.Component {
                         disabled={
                             this.isLocked(i) && !(use_expanded_view && debug)
                         }
-                        expanded={
-                            currentExpanded === i ||
-                            (use_expanded_view != null &&
-                                use_expanded_view &&
-                                debug)
-                        }
-                        defaultExpanded={false}
+                        expanded={true}
                     >
                         <AccordionSummary
                             expandIcon={<ExpandMoreIcon />}
@@ -182,20 +176,8 @@ class HintSystem extends React.Component {
                             })}
                         >
                             <Typography className={classes.heading}>
-                                {translate('hintsystem.hint') + (i + 1) + ": "}
-                                {renderText(
-                                    hint.title === "nan" ? "" : hint.title,
-                                    problemID,
-                                    chooseVariables(
-                                        Object.assign(
-                                            {},
-                                            stepVars,
-                                            hint.variabilization
-                                        ),
-                                        seed
-                                    ),
-                                    this.context
-                                )}
+                                {"Solution"}
+                                
                             </Typography>
                         </AccordionSummary>
                         <AccordionDetails >

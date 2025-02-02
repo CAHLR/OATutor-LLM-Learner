@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/OATutor-LLM-Learner/static/css/main.89b05c1a.css",
-    "main.js": "/OATutor-LLM-Learner/static/js/main.b962ee47.js",
+    "main.js": "/OATutor-LLM-Learner/static/js/main.700e1a06.js",
     "static/media/Symbola.svg": "/OATutor-LLM-Learner/static/media/Symbola.f647c9292a2da02d9ae8.svg",
     "static/media/Symbola.eot": "/OATutor-LLM-Learner/static/media/Symbola.d25fbd520f6558203fb4.eot",
     "static/media/Symbola.ttf": "/OATutor-LLM-Learner/static/media/Symbola.1ac5fa7f9b82ed4ce3f3.ttf",
@@ -9,10 +9,10 @@
     "static/media/Symbola.woff2": "/OATutor-LLM-Learner/static/media/Symbola.080d8bb6a36e8bd8966b.woff2",
     "index.html": "/OATutor-LLM-Learner/index.html",
     "main.89b05c1a.css.map": "/OATutor-LLM-Learner/static/css/main.89b05c1a.css.map",
-    "main.b962ee47.js.map": "/OATutor-LLM-Learner/static/js/main.b962ee47.js.map"
+    "main.700e1a06.js.map": "/OATutor-LLM-Learner/static/js/main.700e1a06.js.map"
   },
   "entrypoints": [
     "static/css/main.89b05c1a.css",
-    "static/js/main.b962ee47.js"
+    "static/js/main.700e1a06.js"
   ]
 }

@@ -53,9 +53,7 @@ class Firebase {
         const cond2 =
             IS_STAGING_PLATFORM && [siteLogOutput].includes(targetCollection);
 
-        return IS_PRODUCTION || cond1 || cond2
-            ? targetCollection
-            : `development_${targetCollection}`;
+        return targetCollection;
     }
 
     /**

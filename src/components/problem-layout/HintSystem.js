@@ -176,7 +176,7 @@ class HintSystem extends React.Component {
                             })}
                         >
                             <Typography className={classes.heading}>
-                                {"Solution"}
+                                {"HINT"}
                                 
                             </Typography>
                         </AccordionSummary>
